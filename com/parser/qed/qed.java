@@ -42,7 +42,7 @@ public static void runREPL()
 {
   Scanner keyboard = new Scanner(System.in);
   
-  System.out.print("qed version 1.0.0");
+  System.out.print("qed version 1.0.0 \n");
   System.out.print("> ");
   String input = keyboard.nextLine();
 

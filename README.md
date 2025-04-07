@@ -6,13 +6,13 @@ static. compiled. weak types. secure. qbit-oriented. C-style. low-level. no Pyth
 
 
 
-`.qed` — a new language for quantum programming.\
-built for control. built for speed.\
-simulate or compile. deterministic by default.\
-native quantum constructs. no abstraction layers.
+`.qed` — a new language for quantum programming.
+built for control. built for speed.
+deterministic by default.
+native quantum constructs.
+no abstraction layers.
 
-write once. compile everywhere.\
-think like C. execute like hardware.\
+think like C. execute like hardware.
 because quantum deserves better than scripts.
 
 ---
@@ -22,7 +22,7 @@ because quantum deserves better than scripts.
 - **deterministic**: no interpreters. no guesswork. what you write is what you run.
 - **secure**: static types. strict checks. zero ambiguity.
 - **compiled**: turns code into quantum assembly. fast and portable.
-- **qbit-native**: qubits are first-class. not an API, not a wrapper.
+- **qbit-native**: qubits are first-class. not an API,library or wrapper.
 - **familiar**: C-style syntax. low-level control. built for systems thinkers.
 
 ---
@@ -47,18 +47,17 @@ CX(q[0], q[1]); // controlled-not gate
 measure q;      // classical measurement
 
 
+```
 ### usage guide
-in your cmd, run 
+
+in your terminal, run 
 
 ```bash
 javac /com/parser/qed/*.java
-
 ```
 then after its compiled, run
+
 ```bash
 java com.parser.qed.qed.java
-
-
-
 
 ```

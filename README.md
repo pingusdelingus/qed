@@ -6,15 +6,14 @@ static. compiled. weak types. secure. qbit-oriented. C-style. low-level. no Pyth
 
 
 
-`.qed` — a new language for quantum programming.
-built for control. built for speed.
-deterministic by default.
-native quantum constructs.
-no abstraction layers.
+`.qed` — a new language for quantum programming.\
+built for control. built for speed.\
+deterministic by default.\
+native quantum constructs.\
+no abstraction layers.\
 
-think like C. execute like hardware.
-because quantum deserves better than scripts.
-
+think like C. execute like hardware.\
+because quantum deserves better than scripts.\
 ---
 
 ### why qed?
